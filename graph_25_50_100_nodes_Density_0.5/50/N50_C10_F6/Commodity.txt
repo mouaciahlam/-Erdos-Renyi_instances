@@ -1,0 +1,12 @@
+Source Destination Bandwidth Latency
+nb_commodities 10
+24 0 3 7
+44 11 1 9
+9 23 3 10
+26 47 3 7
+36 5 1 9
+7 35 2 12
+9 49 3 15
+7 13 1 15
+40 13 2 6
+28 40 2 7
