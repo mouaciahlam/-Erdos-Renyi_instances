@@ -1,0 +1,5 @@
+# Erdos-Renyi_instances
+These instances are generated as Erdős-Rényi graphs using the Python library NetworkX. We vary the number of nodes |N| in  {25, 50, 100} and consider the graph density d in {0.5, 0.9}. For each arc  $(i,j) \in A$, the latency $l_{ij} \in \mathbb{N}$ is chosen  uniformly at random  from the interval $[1,25]$, and we set  $l_{ij}=l_{ji}$.  For each node $u \in N$, its node activation cost $\psi_u \in \mathbb{N}$ is chosen uniformly at random from $[50, 1000]$. The total number of VNFs  $|F|$ is set to 10, and for each  $u \in N, f \in F$,  the installation cost $\psi_u^f \in \mathbb{N}$ is chosen uniformly at random from $[10, 100]$ .
+We vary the total number of commodities, by considering |C| in {10, 15,..., 50}. For each commodity, its distinct source and destination nodes are chosen randomly from N. 
+To define the set F^k of VNFs associated to each commodity, we  randomly choose between {6,8,10} functions from the set F and order them randomly. 
+The latency l_k is set to 1.5Xthe length of the shortest~path (with respect to the  values l_{ij}).
